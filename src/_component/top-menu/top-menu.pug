@@ -1,0 +1,5 @@
+nav.top-menu
+  .top-menu__logo
+  //- pre=JSON.stringify(data, null, 2)
+  each menu in data['top-menu']
+    a.top-menu__link(href=`${baseUrl}${menu.link}`)=menu.label
