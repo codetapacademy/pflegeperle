@@ -1,0 +1,35 @@
+.top-menu {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+
+  &__logo {
+    height: 80px;
+  }
+
+  &__link {
+    height: 40px;
+  }
+
+  &__link {
+    color: $top-menu;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &:hover {
+      color: $top-menu-hover;
+    }
+  }
+
+  &__logo {
+    width: 100%;
+    background-image: url('#{$baseUrl}asset/image/cropped-pflegePerle-logo-web.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}

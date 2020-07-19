@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+  .top-menu {
+    flex-direction: row;
+
+    &__logo,
+    &__link {
+      height: 80px;
+    }
+
+    &__logo {
+      width: 220px;
+    }  
+  }
+}
