@@ -1,0 +1,45 @@
+.link-hero {
+  &__wrapper {
+    display: grid;
+    grid-gap: 2rem;
+  }
+
+  &__link {
+    color: #352219;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 250ms;
+
+    &:hover {
+      color: #8dbcd2;
+    }
+  }
+
+  &__description {
+    color: #e6b59e;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  &__item {
+    display: grid;
+    grid-gap: 1rem;
+
+    [class^="pp-"] {
+      margin: 0 auto;
+      transition: 250ms;
+      font-size: 2.5rem;
+      width: 5rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: salmon;
+      border-radius: 50%;
+    }
+    
+    &:hover [class^="pp-"] {
+      background-color: #8dbcd2;
+    }
+  }
+}

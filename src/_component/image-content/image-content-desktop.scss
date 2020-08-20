@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .image-content {
+    max-width: 1024px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+}

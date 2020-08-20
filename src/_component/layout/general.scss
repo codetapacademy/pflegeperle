@@ -8,4 +8,64 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .content {
+  &__divider {
+    border-bottom: 1px solid #cbc7c4;
+    height: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+
+    .pp-chat {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e6b59e;
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      color: white;
+      font-size: 1.5rem;
+      border: 1rem solid #f3f2f0;
+    }
+  }
+
+  &__title {
+    color: #352219;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1.25;
+    margin: 0;
+    font-family: "Libre Baskerville",serif;
+  }
+
+  &__subtitle {
+    color: #8dbcd2;
+    font-size: 2rem;
+    font-style: normal;
+    font-family: "Libre Baskerville",serif;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  &__paragraph {
+    color: #89807c;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 17px;
+  }
+
+  &__email {
+    color: #352219;
+    font-size: 24px;
+    text-align: center;
+
+    &::before {
+      content: 'office';
+    }
+
+    &::after {
+      content: 'pflegeperle.at';
+    }
+  }
 }

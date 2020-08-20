@@ -1,7 +1,8 @@
-- link: ''
-  label: home
+# - link: ''
+#   label: home
 - link: uber-uns
-  label: Uber uns
+  # label: Uber uns
+  label: Über uns
 - link: unsere-dienstleistungen
   label: Was wir tun
 - link: der-ablauf

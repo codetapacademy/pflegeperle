@@ -1,0 +1,19 @@
+.image-content {
+  display: grid;
+  min-height: 200px;
+
+  &__background {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+  }
+  
+  &__text {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f3f2f0;
+  }
+}
