@@ -1,3 +1,17 @@
+.sprijin-competent {
+  margin: 1rem 0;
+
+  &:nth-child(odd) .image-content .image-content__text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  &:nth-child(odd) .image-content .image-content__background {
+    grid-column: 2/3;
+  }
+
+}
+
 .image-content {
   display: grid;
   min-height: 200px;
