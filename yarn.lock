@@ -5123,15 +5123,6 @@ imagemin-gifsicle@6.0.1, imagemin-gifsicle@^6.0.1:
     gifsicle "^4.0.0"
     is-gif "^3.0.0"
 
-imagemin-jpegoptim@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/imagemin-jpegoptim/-/imagemin-jpegoptim-6.0.0.tgz#718a86ee271ba15f46df1a5263310d9a51d1f3de"
-  integrity sha512-bXgGRX3f4FIfxMTB/fmivovK+3PTPwAwz6XNgj8zyISZ/mNlnFnS2aiSLsHd40S7FuaSgv9ONliIHAaHbk57mg==
-  dependencies:
-    execa "^1.0.0"
-    is-jpg "^2.0.0"
-    jpegoptim-bin "^5.0.0"
-
 imagemin-jpegtran@6.0.0, imagemin-jpegtran@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/imagemin-jpegtran/-/imagemin-jpegtran-6.0.0.tgz#c8d3bcfb6ec9c561c20a987142854be70d90b04f"
@@ -6146,15 +6137,6 @@ jest@^24.8.0:
   dependencies:
     import-local "^2.0.0"
     jest-cli "^24.8.0"
-
-jpegoptim-bin@^5.0.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/jpegoptim-bin/-/jpegoptim-bin-5.1.0.tgz#afe26498bcf91d64beca9e235f60bac7525bf969"
-  integrity sha512-BdvkO6wPLLSid7M6t3HnXuYvfLOxbeatgePBi4c4ps3iwoJ2ReUtvXJvJtsDCeN5l3Cm2tHEUcU7V5+M30hUew==
-  dependencies:
-    bin-build "^3.0.0"
-    bin-wrapper "^4.0.0"
-    logalot "^2.0.0"
 
 jpegtran-bin@^4.0.0:
   version "4.0.0"

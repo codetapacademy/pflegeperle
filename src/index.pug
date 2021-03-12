@@ -1,11 +1,12 @@
 extends _component/layout/base
 
 block awesome-content
+  - var heroType = 'taking-care'
   include _component/hero/hero
   each story in data.landing
     .sprijin-competent
       .image-content
-        .image-content__background
+        div(class=`image-content__background-${story['content__background-image']}`)
         .image-content__text
           h1.content__title=story.content__title
           h2.content__subtitle=story.content__subtitle
@@ -23,3 +24,5 @@ block awesome-content
       .pp-stethoscope
       a.link-hero__link(href="codetap.academy") Wir verstehen uns als einen erfahrenen regionalen Partner
       p.link-hero__description Wir sind eine kleine aber feine Vermittlungsagentur die in Wien rund um Wien tätig ist
+  - var heroType = 'people-getting-informed'
+  include _component/hero/hero
