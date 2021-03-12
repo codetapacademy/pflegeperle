@@ -1,0 +1,15 @@
+.footer
+  .footer__wrapper
+    .footer__social-media
+    .footer__logo
+      .top-menu__logo
+    .footer__contact-info
+      - var contactInfo = data.footer.contactInfo
+      each contact in contactInfo 
+        div 
+          h3.footer__contact-title= contact.title 
+          each description in contact.list 
+            if description === 'divider'
+              hr
+            else 
+              p= description

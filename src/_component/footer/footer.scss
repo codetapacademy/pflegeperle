@@ -1,0 +1,28 @@
+.footer {
+  background-color: #322c29;
+  padding: 8rem 1rem;
+
+  &__wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+  }
+
+  &__logo {
+    // width: 300px;
+    // padding-top: 25%;
+    justify-self: center;
+    align-self: center;
+  }
+
+  &__contact-info {
+    color: #fff;
+  }
+
+  &__contact-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}
