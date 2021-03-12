@@ -1,4 +1,42 @@
 extend ../_component/layout/base
+block config
+  - var pageData = data.kosten
 
 block awesome-content
-  h1 kosten
+  .kosten
+    .kosten__wrapper
+      h1.content__title= pageData.pageTitle
+      //- pre= JSON.stringify(pageData, null, 2)
+      .kosten-content 
+        each item in pageData.content.list
+          if item.type === 'simple-paragraph'
+            p.content__description!= item.value
+
+  .pricing-table
+    each data in pageData.pricingTable
+      .pricing-table__content
+        h2.pricing-table__title= data.title
+        h3.pricing-table__sub-title= data.price
+        ul.pricing-table__list-wrapper
+          each feature in data.featureList
+            .pricing-table__list-item= feature
+
+  - var { infoTable } = data.kosten
+  .info-table
+    h1.content__title= infoTable.title
+    p.info-table__description!= infoTable.description
+
+    .info-table__data 
+      each item in infoTable.list 
+        .info-table__label= item.label
+        .info-table__value= new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(item.value)
+
+  .kosten
+    .kosten__wrapper
+      h1.content__title= pageData.pageFooterTitle
+      //- pre= JSON.stringify(pageData, null, 2)
+      .kosten-content 
+        each item in pageData.content.footerList
+          if item.type === 'simple-paragraph'
+            p.content__description!= item.value
+

@@ -1,0 +1,14 @@
+contactInfo:
+  -
+    title: Firmenname
+    list:
+      - Alexandra Lidia Idriceanu
+      - PflegePerle
+  -
+    title: Firmensitz
+    list:
+      - Landstrasse 5
+      - 2464 Göttlesbrunn
+      - divider
+      - Copyright © PflegePerle.at
+      - All rights reserved.

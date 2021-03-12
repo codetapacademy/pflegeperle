@@ -1,3 +1,4 @@
+@import '_asset/font/bitbee';
 @import '_component/config/color';
 @import '_component/config/font-family';
 @import '_component/layout/general';
@@ -5,6 +6,9 @@
 @import '_component/top-menu/top-menu';
 @import '_component/team/team';
 @import '_component/hero/hero';
+@import '_component/footer/footer';
+@import 'kosten/kosten';
+@import '_component/ordered-list/ordered-list';
 @import '_component/image-content/image-content';
 @import '_component/link-hero/link-hero';
 @import 'home';
