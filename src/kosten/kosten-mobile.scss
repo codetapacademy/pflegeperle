@@ -21,14 +21,19 @@
       color: #000;
     }
   }
+
+  &-content {
+    padding: 1rem;
+  }
 }
 
 .pricing-table {
   font-family: 'Libre Baskerville';
   max-width: 1280px;
-  margin: 1rem auto;
+  margin: 1rem;
   display: grid;
   grid-gap: 2.5rem;
+
 
   &__content {
     padding: 1rem;
@@ -96,5 +101,51 @@
       color: #0FA958;
       padding: 1rem;
     }
+  }
+}
+
+.info-table {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  &__data {
+    padding: 1rem;
+  }
+
+  &__description {
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+    text-align: center;
+    color: #8dbcd2;
+  }
+
+  &__label,
+  &__value {
+    height: 60px;
+    // line-height: 60px;
+    padding: 0 2.5rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__value {
+    text-align: right;
+    font-weight: bold;
+  }
+
+  &__label:nth-child(4n + 1),
+  &__value:nth-child(4n + 2) {
+    background-color: #f3f2ed;
+  }
+
+  &__label:nth-child(4n),
+  &__value:nth-child(4n + 1) {
+    background-color: #ebeae5;
+  }
+
+  & i {
+    color: #352219;
   }
 }

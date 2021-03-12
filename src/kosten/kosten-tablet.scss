@@ -1,5 +1,19 @@
 @media screen and (min-width: 768px) {
+  .kosten {
+    &-content {
+      padding: 2rem;
+    }
+  }
+
   .pricing-table {
     grid-template-columns: repeat(2, 1fr);
-  }  
+    margin: 1rem auto;
+  }
+
+  .info-table {
+    &__data {
+      display: grid;
+      grid-template-columns: 1fr auto;
+    }
+  }
 }

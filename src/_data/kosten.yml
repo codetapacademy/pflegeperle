@@ -1,4 +1,5 @@
 pageTitle: Kosten der 24h Betreuung
+pageFooterTitle: Steuerliche Absetzbarkeit
 pageDescription: Change me - Page description for Kosten der 24h Betreuung
 content:
   list:
@@ -14,6 +15,14 @@ content:
     -
       type: simple-paragraph
       value: Bei uns können Sie zwischen unserer <b>einmaligen Vermittlung</b> -zB bei Urlaubsvertretung und unseren <b>Rund-Um-Sorglos Paket</b> -zB bei dauerhaft gewünschter Betreuung, wählen.
+  footerList:
+    -
+      type: simple-paragraph
+      value: Gemäß Einkommensteuergesetz sind bei einer “Betreuung zu Hause” die damit verbundenen Aufwendungen ab der Pflegestufe 1 zur Gänze als außergewöhnliche Belastung abzugsfähig.
+
+    -
+      type: simple-paragraph
+      value: Dabei können alle im Zusammenhang mit der Betreuung anfallenden Aufwendungen und Ausgaben, wie zum Beispiel Kosten für das Pflegepersonal und Aufwendungen für die Vermittlungsorganisation geltend gemacht werden.
 
 pricingTable:
   -
@@ -46,3 +55,31 @@ pricingTable:
       - Mehrjährige Erfahrung in der Grundpflege & Hauswirtschaft
       - Hohe Qualifikation
 
+infoTable:
+  title: Kostenstruktur
+  description: 'Preisbeispiel für eine monatliche Kostenstruktur im <i>Klassik Tarif</i> bei Pflegestufe 4:'
+  list:
+    -
+      label: Gesamtkosten monatlich bei einem 28 Tage Turnus
+      value: 1884
+      special: 1
+    -
+      label: + Verwaltungsgebühr von PflegePerle monatlich
+      value: 230
+      special: 0
+    -
+      label: –  Pflegegeld (Pflegestufe 4)
+      value: 689
+      special: 0
+    -
+      label: – Zuschuss BPGG
+      value: 550
+      special: 2
+    -
+      label: Ihre monatliche Eigenleistung
+      value: 875
+      special: 0
+    -
+      label: Ihre tägliche Eigenleistung
+      value: 31.30
+      special: 0

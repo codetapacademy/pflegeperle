@@ -2,4 +2,10 @@
   .pricing-table {
     grid-template-columns: repeat(3, 1fr);
   }  
+
+  .kosten {
+    &-content {
+      padding: 3rem;
+    }
+  }
 }
