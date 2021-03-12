@@ -1,5 +1,8 @@
 extend ../_component/layout/base
 
+block config
+  - var pageData = data['uber-uns']
+
 block awesome-content
   p Betreuung Zuhause sollte gut organisiert sein. Denn im Bereich Pflege sollten Ihnen kompetente und seriöse Ansprechpartner zur Seite stehen, damit Sie wichtige Entscheidungen gut vorbereitet treffen können und mit dieser Aufgabe nicht allein nicht alleine gelassen werden. 
   p Pflegebedürftigkeit kann plötzlich passieren. Ein Schlaganfall, oder man kommt als Pflegefall aus der Rehabilitation zurück und plötzlich verändert sich alles. Auf einmal beschäftigen Sie sich mit diversen Fragen:
@@ -28,3 +31,8 @@ block awesome-content
     .profile__name Bakk. Komm. Alexandra Lidia Idriceanu
     .profile__title Inhaberin von "PflegePerle"
     .profile__info Was mir an einer durchgehenden Betreuung wichtig ist, sind Menschen an meiner Seite zu haben denen ich vertrauen kann. Menschen die ich in weiterer Folge an andere weitervermitteln darf. Pflege ist eine sehr menschennahe Angelegenheit die mit Empathie behandelt werden
+  - var heroType = 'people-getting-informed'
+  include ../_component/hero/hero
+
+  - var team = pageData.team 
+  include ../_component/team/team
