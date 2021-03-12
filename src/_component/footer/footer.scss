@@ -2,6 +2,26 @@
   background-color: #322c29;
   padding: 8rem 1rem;
 
+  &__social-media {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  &__social-link {
+    padding: 1rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+    background-color: #3e3836;
+    border-radius: 50%;
+    margin-left: 1rem;
+    transition: 250ms;
+  }
+
+  &__social-link:hover {
+    background-color: #e6b59e;
+  }
+
   &__wrapper {
     max-width: 1280px;
     margin: 0 auto;
