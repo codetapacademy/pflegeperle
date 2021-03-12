@@ -4,9 +4,9 @@
     .custom-counter
       each item in heroInfo.list
         .count-me 
-          div= item.title 
+          .ordered-list__item-title= item.title 
           each secondItem in item.infoList
-            p= secondItem
+            .ordered-list__item-description= secondItem
   .ordered-list__image(
     style=`background-image: url(${heroInfo.imagePath})`
   )
