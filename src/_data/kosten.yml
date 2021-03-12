@@ -1,0 +1,48 @@
+pageTitle: Kosten der 24h Betreuung
+pageDescription: Change me - Page description for Kosten der 24h Betreuung
+content:
+  list:
+    -
+      type: simple-paragraph
+      value: Sowie der zu Pflegende als auch die Betreuungskraft, sollen gerecht behandelt werden.
+    -
+      type: simple-paragraph
+      value: Die jeweilige monatliche Vertragssumme richtet sich nach dem Betreuungsaufwand und Ihren individuellen Anforderungen und wird nach einer intensiven Auswertung Ihrer Angaben im Fragebogen und unserer Beratungsgespräche mit Ihnen und Ihren Angehörigen festgelegt.
+    -
+      type: simple-paragraph
+      value: Generell ist zu sagen, dass der Tagessatz der <b>Betreuungskraft ab 41€</b> beginnt.
+    -
+      type: simple-paragraph
+      value: Bei uns können Sie zwischen unserer <b>einmaligen Vermittlung</b> -zB bei Urlaubsvertretung und unseren <b>Rund-Um-Sorglos Paket</b> -zB bei dauerhaft gewünschter Betreuung, wählen.
+
+pricingTable:
+  -
+    title: Basis
+    price: 41 €
+    featureList:
+      - Grundpflege
+      - Haushaltshilfe
+      - Aktivierende Betreuung
+      - Grundkenntnisse Deutsch
+  -
+    title: Klassik
+    price: 51 €
+    featureList:
+      - Grundpflege
+      - Haushaltshilfe
+      - Aktivierende Betreuung
+      - Demenz-Betreuung
+      - Erweiterte Deutschkenntnisse
+      - Berufserfahrung
+  -
+    title: Premium
+    price: 61 €
+    featureList:
+      - Grundpflege
+      - Haushaltshilfe
+      - Aktivierende Betreuung
+      - Demenz-Betreuung
+      - Gute Deutschkenntnisse
+      - Mehrjährige Erfahrung in der Grundpflege & Hauswirtschaft
+      - Hohe Qualifikation
+
