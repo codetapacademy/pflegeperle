@@ -12,8 +12,8 @@ block awesome-content
       .image-content
         div(class=`image-content__background-${story['content__background-image']}`)
         .image-content__text
-          h1.content__title=story.content__title
-          h2.content__subtitle=story.content__subtitle
+          h1.content__title= story.content__title
+          h2.content__subtitle= story.content__subtitle
           each paragraph in story.content_description
             p.content__paragraph=paragraph
           .content__divider

@@ -1,0 +1,23 @@
+pageTitle: Über uns &#8211; PflegePerle &#8211; 24h Pflege!
+pageDescription: Update this text - Über uns &#8211; PflegePerle &#8211; 24h Pflege!
+team:
+  title: UNSER TEAM
+  people:
+    -
+      imagePath: /asset/image/team/alexandra.jpg
+      name: Bakk. Komm. Alexandra Lidia Idriceanu
+      role: Inhaberin von “PflegePerle"
+      description: Was mir an einer durchgehenden Betreuung wichtig ist, sind Menschen an meiner Seite zu haben denen ich vertrauen kann. Menschen die ich in weiterer Folge an andere weitervermitteln darf. Pflege ist eine sehr menschennahe Angelegenheit die mit Empathie behandelt werden…
+
+    -
+      imagePath: /asset/image/team/carmen.jpg
+      name: Ing. Carmen Elena Idriceanu
+      role: Kundenbetreuung
+      description: “Ich selbst habe Seniorinnen und Senioren hier in Österreich betreut“ Als junge Einwanderin hatte ich damals – dank meiner Ausbildung – die Chance eine Stelle als Pflegerin in einem staatlichen Pensionistenheim zu bekommen. Es war für mich neu das ältere…
+
+    -
+      imagePath: /asset/image/team/susanne.jpg
+      name: Susanne Knotzer
+      role: DGKS
+      description: 'Halli Hallo, mein Name ist Susanne Knotzer und ich bin allgemeine diplomierte Gesundheits und Krankenpflegerin. Im Krankenpflegeberuf bin ich tätig seit 1986, also bereits 34 Jahre. Mein Lebensmotto: ”betreue und pflege, so wie du gerne betreut oder gepflegt werden möchtest.”…'
+

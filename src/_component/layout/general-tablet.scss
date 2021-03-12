@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+  // selectors for tablet go here
+  .content {
+    &__title {
+      font-size: 2.5rem;
+    }
+  }
+}

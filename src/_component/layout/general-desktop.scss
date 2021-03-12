@@ -1,0 +1,8 @@
+@media screen and (min-width: 1280px) {
+  // selectors for desktop go here
+  .content {
+    &__title {
+      font-size: 3rem;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@media screen and (min-width: 1024px) {
+  .team {
+    &__wrapper {
+      // nimic
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
