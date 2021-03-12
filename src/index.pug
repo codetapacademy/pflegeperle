@@ -1,9 +1,13 @@
 extends _component/layout/base
 
+block config 
+  -
+    var pageData = data.landing
+
 block awesome-content
   - var heroType = 'taking-care'
   include _component/hero/hero
-  each story in data.landing
+  each story in data.landing.pageTwoSideStoryList
     .sprijin-competent
       .image-content
         div(class=`image-content__background-${story['content__background-image']}`)
@@ -18,11 +22,11 @@ block awesome-content
   .link-hero__wrapper
     .link-hero__item
       .pp-wheelchair
-      a.link-hero__link(href="codetap.academy") Vermittlung von selbstständigen 24 Stunden BetreuerInnen
+      a.link-hero__link(href="https://pflegeperle.at") Vermittlung von selbstständigen 24 Stunden BetreuerInnen
       p.link-hero__description Wir sind ein kompetenter Partner wenn sie auf der Suche nach einer geeigneten Betreuungskraft sind. 
     .link-hero__item
       .pp-stethoscope
-      a.link-hero__link(href="codetap.academy") Wir verstehen uns als einen erfahrenen regionalen Partner
+      a.link-hero__link(href="https://pflegeperle.at") Wir verstehen uns als einen erfahrenen regionalen Partner
       p.link-hero__description Wir sind eine kleine aber feine Vermittlungsagentur die in Wien rund um Wien tätig ist
   - var heroType = 'people-getting-informed'
   include _component/hero/hero

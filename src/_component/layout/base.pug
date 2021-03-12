@@ -1,8 +1,9 @@
 doctype html
 html(lang="en")
+  block config
   head
-    title PflegePerle &#8211; 24h Pflege! &#8211; Wir pflegen Ihr Vertrauen!
-    meta(content="PflegePerle &#8211; 24h Pflege! &#8211; Wir pflegen Ihr Vertrauen! is super awesome" name="description")
+    title= pageData && pageData.pageTitle || 'Page title'
+    meta(content=pageData && pageData.pageDescription || 'Page description' name="description")
     meta(
       name="viewport" 
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
