@@ -56,3 +56,15 @@ pageOrderedListWithImage:
         - Unsere Kunden haben eine persönliche Ansprechpartnerin. Wir halten es für wichtig, dass regelmäßiger persönlicher und telefonischer Kontakt durch unsere Agentur gehalten wird.
         - Hierbei verstehen wir uns als Kommunikationsschnittstelle zwischen “PflegePerlen”, den Angehörigen und ihren zu Pflegenden.
         - 'Wichtig: Wir stehen für eine Kommunikation auf Augenhöhe.'
+
+contactInfoBanner:
+  -
+    icon: call
+    title: Rufen Sie uns an
+    valueLeft: +43 (0) 670 /
+    valueRight: ' 70 19 0 50'
+  -
+    icon: email
+    title: Senden Sie uns eine Email
+    valueLeft: office
+    valueRight: pflegeperle.at

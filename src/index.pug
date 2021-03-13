@@ -30,5 +30,12 @@ block awesome-content
       p.link-hero__description Wir sind eine kleine aber feine Vermittlungsagentur die in Wien rund um Wien tätig ist
   - var heroType = 'people-getting-informed'
   include _component/hero/hero
-  - var heroInfo = data.landing.pageOrderedListWithImage
+
+  - 
+    var {
+      contactInfoBanner: infoBanner,
+      pageOrderedListWithImage: heroInfo,
+    } = data.landing
+
+  include _component/info-banner/info-banner
   include _component/ordered-list/ordered-list

@@ -41,8 +41,10 @@
     position: relative;
     border-radius: 8px;
     overflow: hidden;
-
+    z-index: -1;
+    
     &::before {
+      z-index: -1;
       content: '';
       position: absolute;
       top: 0;
