@@ -24,8 +24,9 @@
   &__item {
     display: grid;
     grid-gap: 1rem;
+    cursor: pointer;
 
-    [class^="pp-"] {
+    [class^="bb-"] {
       margin: 0 auto;
       transition: 250ms;
       font-size: 2.5rem;
@@ -38,7 +39,7 @@
       border-radius: 50%;
     }
     
-    &:hover [class^="pp-"] {
+    &:hover [class^="bb-"] {
       background-color: #8dbcd2;
     }
   }
