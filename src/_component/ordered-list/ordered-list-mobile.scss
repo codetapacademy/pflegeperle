@@ -46,6 +46,14 @@
   display: flex;
   flex-wrap: wrap;
 
+  // si mai bine
+  align-items: center;
+
+  &__label {
+    width: 75%;
+    padding-left: 1rem;
+  }
+
   &::before {
     content: counter(custom-counter);
     width: 72px;
