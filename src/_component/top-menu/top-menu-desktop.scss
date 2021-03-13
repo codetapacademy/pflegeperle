@@ -1,6 +1,11 @@
 @media (min-width: 1024px) {
   .top-menu {
     flex-direction: row;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
 
     &__logo,
     &__link {
@@ -10,5 +15,9 @@
     &__logo {
       width: 220px;
     }  
+  }
+
+  .content {
+    padding-top: 80px;
   }
 }
