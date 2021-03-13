@@ -4,5 +4,9 @@
       grid-template-columns: repeat(2, 1fr);
       // nimic
     }
+
+    &__title {
+      font-size: 48px;
+    }
   }
 }
