@@ -4,10 +4,25 @@ block config
     var pageData = data.impressum
 
 block awesome-content
-  h1= pageData.pageTitle
-  p= pageData.pageDescription
-  each intro in pageData.introList
-    .article-wrapper 
-      h1.article-title= intro.title
-      p.article-description= intro.description
-      .article-image(style=`background-image: url(${intro.imagePath})`)
+  .content--padd
+    h1.content__title= pageData.pageTitle
+    p.content__paragraph= pageData.pageDescription
+    each intro in pageData.introList
+      .article-wrapper 
+        h1.article-title= intro.title
+        p.article-description= intro.description
+        .article-image(style=`background-image: url(${intro.imagePath})`)
+
+    each content in pageData.nisteAltele
+      if content.type === 'h2'
+        h2.content__subtitle= content.value
+      else if content.type === 'h3'
+        h3.content__subtitle= content.value
+      else if content.type === 'p'
+        div
+          each val in content.list
+            p.content__paragraph= val
+      else if content.type === 'ul'
+        ul
+          each val in content.list
+            li= val

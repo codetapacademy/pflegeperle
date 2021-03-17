@@ -18,3 +18,136 @@ introList:
     imagePath: /asset/image/2-side/young-woman-points-out-something-to-the-old-woman.jpeg
     description: Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem österreichischen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
+nisteAltele:
+  -
+    type: h2
+    value: Datenschutzerklärung
+  -
+    type: p
+    list:
+      - Datenschutz-Information für betroffene Personen gem. Art. 13 und Art. 14 DSGVO
+      - Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.
+
+  -
+    type: h2
+    value: 'Sie erreichen uns unter folgenden Kontaktdaten:'
+  -
+    type: ul
+    list:
+      - 'Verantwortliche:'
+      - Alexandra Lidia Idricenau – PflegePerle
+      - Landstrasse 5
+      - 2464 Göttlesbrunn
+      - Tel. 0670 70 19 050
+      - office@pflegeperle.at
+      - www.pflegeperle.at
+
+  -
+    type: h2
+    value: Kategorien der Daten
+  
+  -
+    type: p
+    list:
+      - 'Für eine zielorientierte und planmäßige Durchführung und in weiterer Folge für die Abrechnung, benötigen wir alle dafür relevanten personenbezogenen Daten, die unter folgende Datenkategorien fallen:'
+
+  -
+    type: h2
+    value: Kontaktdaten
+
+  -
+    type: p
+    list:
+      - Weitere personenbezogene Daten
+      - Verrechnungsdaten
+      - Diese Daten werden vom Betroffenen zur Verfügung gestellt.
+
+  -
+    type: h2
+    value: Betroffenenrechte
+
+  -
+    type: p
+    list:
+      - Ihnen stehen bezüglich Ihrer bei uns gespeicherten Daten grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei uns office@pflegeperle.at oder der Datenschutzbehörde beschwerden.
+
+  -
+    type: h2
+    value: KONTAKT Datenschutzbehörde
+
+  -
+    type: p
+    list:
+      - 'Aufsichtsbehörde für die Einhaltung datenschutzrechtlicher Bestimmungen in Österreich:'
+
+  -
+    type: ul
+    list:
+      - Österreichische Datenschutzbehörde
+      - Wickenburggasse 8
+      - 1080 Wien
+      - 'T: +43 1 52 152 – 0'
+      - 'E: dsb@dsb.gv.at'
+      - 'W: http://www.dsb.gv.at/'
+
+  -
+    type: h2
+    value: Wenn Sie mit uns in Kontakt treten
+
+  -
+    type: p
+    list:
+      - Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+      - 'Eine Übermittlung Ihrer Daten erfolgt ausschließlich zur Vertragserfüllung oder aufgrund ausdrücklich gesetzlicher Bestimmungen. Folgenden Empfängerkreisen werden Ihre Daten gegebenenfalls übermittelt:'
+
+  -
+    type: ul
+    list:
+      - Zuständige Behörden, selbständige PersonenbetreuerInnen, Partneragenturen, Transportunternehmen.
+
+  -
+    type: h2
+    value: WEBANALYSE
+
+  -
+    type: h3
+    value: Cookies
+  
+  -
+    type: p
+    list:
+      - Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät abgelegt werden. Sie richten keinen Schaden an.
+      - Wir nutzen Cookies dazu, unser Angebot nutzerfreundlich zu gestalten. Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.
+      - Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so einrichten, dass er Sie über das Setzen von Cookies informiert und Sie dies nur im Einzelfall erlauben.
+      - Bei der Deaktivierung von Cookies kann die Funktionalität unserer Website eingeschränkt sein.
+
+  -
+    type: h3
+    value: Nutzung von Google Analytics
+
+  -
+    type: p
+    list: 
+      - Wir verwenden Google Analytics, um die Website-Nutzung zu analysieren. Die daraus gewonnenen Daten werden genutzt, um unsere Website sowie Werbemaßnahmen zu optimieren.
+      - Google Analytics ist ein Webanalysedienst, der von Google Inc. (1600 Amphitheatre Parkway, Mountain View, CA 94043, United States) betrieben und bereitgestellt wird. Google verarbeitet die Daten zur Website-Nutzung in unserem Auftrag und verpflichtet sich vertraglich zu Maßnahmen, um die Vertraulichkeit der verarbeiteten Daten zu gewährleisten.
+
+
+  -
+    type: h2
+    value: 'Während Ihres Website-Besuchs werden u.a. folgende Daten aufgezeichnet:'
+
+  -
+    type: ul
+    list: 
+      - Aufgerufene Seiten
+      - Ihr Verhalten auf den Seiten (beispielsweise Klicks, Scroll-Verhalten und Verweildauer)
+      - Ihr ungefährer Standort (Land und Stadt)
+      - Ihre IP-Adresse (in gekürzter Form, sodass keine eindeutige Zuordnung möglich ist)
+      - Technische Informationen wie Browser, Internetanbieter, Endgerät und Bildschirmauflösung
+      - Herkunftsquelle Ihres Besuchs (d.h. über welche Website bzw. über welches Werbemittel Sie zu uns gekommen sind)
+      - Diese Daten werden an einen Server von Google in den USA übertragen. Google beachtet dabei die Datenschutzbestimmungen des „EU-US Privacy Shield“-Abkommens.
+      - Google Analytics speichert Cookies in Ihrem Webbrowser für die Dauer von zwei Jahren seit Ihrem letzten Besuch. Diese Cookies enthaltene eine zufallsgenerierte User-ID, mit der Sie bei zukünftigen Website-Besuchen wiedererkannt werden können.
+      - Die aufgezeichneten Daten werden zusammen mit der zufallsgenerierten User-ID gespeichert, was die Auswertung pseudonymer Nutzerprofile ermöglicht. Sonstige Daten bleiben in aggregierter Form unbefristet gespeichert.
+      - Sollten Sie mit der Erfassung nicht einverstanden sein, können Sie diese mit der einmaligen Installation des Browser-Add-ons zur Deaktivierung von Google Analytics unterbinden.
+      - 'Quelle: traffic3.net'
+

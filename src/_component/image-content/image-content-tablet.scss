@@ -9,6 +9,20 @@
     &-wrapper {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+
+      &:nth-child(odd) {
+        .article {
+          &-image {
+            grid-column: 1/2;
+          }
+
+          &-title,
+          &-description {
+            grid-column: 2/4;
+          }
+        }
+      }
     }
 
     &-image {
