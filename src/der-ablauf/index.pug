@@ -1,4 +1,14 @@
 extend ../_component/layout/base
+block config
+  -
+    var pageData = data['der-ablauf']
 
 block awesome-content
-  h1 der ablauf
+  .content--padd
+    h1.content__title= pageData.pageTitle
+    p.content__paragraph= pageData.pageDescription
+    each intro in pageData.introList
+      .article-wrapper 
+        h1.article-title= intro.title
+        p.article-description= intro.description
+        .article-image(style=`background-image: url(${intro.imagePath})`)
