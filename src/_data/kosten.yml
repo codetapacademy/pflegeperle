@@ -64,8 +64,8 @@ infoTable:
       value: 1884
       special: 1
     -
-      label: + Verwaltungsgebühr von PflegePerle monatlich
-      value: 230
+      label: + Verwaltungsgebühr von PflegePerle monatlich (inkl. MwSt.)
+      value: 276
       special: 0
     -
       label: –  Pflegegeld (Pflegestufe 4)
@@ -77,9 +77,9 @@ infoTable:
       special: 2
     -
       label: Ihre monatliche Eigenleistung
-      value: 875
+      value: 921
       special: 0
     -
       label: Ihre tägliche Eigenleistung
-      value: 31.30
+      value: 32.89
       special: 0
