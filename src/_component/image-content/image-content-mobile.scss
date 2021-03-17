@@ -18,6 +18,15 @@
   background-size: cover;
   background-position: center center;
 }
+.article-image {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.article-wrapper {
+  padding: 1rem 0;
+}
 
 .image-content {
   display: grid;

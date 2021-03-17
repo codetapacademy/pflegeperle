@@ -4,4 +4,16 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
   }
+
+  .article {
+    &-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-image {
+      grid-column: 2/3;
+      grid-row: 1/3;
+    }
+  }
 }

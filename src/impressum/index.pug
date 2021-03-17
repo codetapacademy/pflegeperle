@@ -1,4 +1,13 @@
 extend ../_component/layout/base
+block config
+  -
+    var pageData = data.impressum
 
 block awesome-content
-  h1 impressum
+  h1= pageData.pageTitle
+  p= pageData.pageDescription
+  each intro in pageData.introList
+    .article-wrapper 
+      h1.article-title= intro.title
+      p.article-description= intro.description
+      .article-image(style=`background-image: url(${intro.imagePath})`)
