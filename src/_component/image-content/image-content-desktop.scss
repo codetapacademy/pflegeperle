@@ -4,4 +4,33 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
   }
+
+  .article {
+    &-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      &:nth-child(odd) {
+        .article {
+          &-image {
+            grid-column: 1/2;
+          }
+
+          &-title,
+          &-description {
+            grid-column: 2/4;
+          }
+        }
+      }
+    }
+
+    &-image {
+      grid-column: 3/4;
+    }
+
+    &-title,
+    &-description {
+      grid-column: 1/3;
+    }
+  }
 }
