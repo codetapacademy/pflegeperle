@@ -1,9 +1,0 @@
-.info-banner
-  //- pre= JSON.stringify(infoBanner, null, 2)
-  each info in infoBanner
-    .info-banner__icon(class=`bb-${info.icon}`)
-    .info-banner__title= info.title
-    .info-banner__description(
-      data-left=info.valueLeft
-      data-right=info.valueRight
-    )= info.valueLeft === 'office' ? '@' : ''
