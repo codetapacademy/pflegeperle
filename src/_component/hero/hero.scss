@@ -7,11 +7,21 @@
 }
 
 .hero {
-  padding-top: 46.57608695652174%;
+  // padding-top: 46.57608695652174%;
+  padding: 20rem 2.5rem 10rem;
   background-position: center center;
   background-size: cover;
+  text-align: center;
 
-  & + .sprijin-competent {
-    margin-top: -5rem;
+  // & + .sprijin-competent {
+  //   margin-top: -5rem;
+  // }
+
+  &__title,
+  &__subtitle {
+    margin: 1rem auto;
+    padding: 1rem;
+    display: inline-block;
+    background-color: rgba($color: #fff, $alpha: 0.75)
   }
 }
