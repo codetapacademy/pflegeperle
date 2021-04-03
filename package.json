@@ -21,9 +21,9 @@
     "pnp": true
   },
   "config": {
-    "customUrl": "http://pug-starter.codetap.academy",
+    "customUrl": "https://pflegeperle.at/",
     "githubUrl": "http://github.com/codetapacademy/pflegeperle.git",
-    "deployToGithubIo": true,
+    "deployToGithubIo": false,
     "directory": {
       "development": "tmp",
       "production": "build",
