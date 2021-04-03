@@ -3,6 +3,7 @@ html(lang="en")
   block config
   head
     title= pageData && pageData.pageTitle || 'Page title'
+    meta(charset="UTF-8")
     meta(content=pageData && pageData.pageDescription || 'Page description' name="description")
     meta(
       name="viewport" 
@@ -17,7 +18,6 @@ html(lang="en")
     if config.entry.css.embed
       link(rel="stylesheet" href=`${baseUrl}${embedPath}` embed)
   body
-    include ../top-menu/top-menu
     .content
       block awesome-content
     //- The style.css is at the bottom so it doesn't
@@ -25,3 +25,4 @@ html(lang="en")
     if config.entry.css.external
       link(rel="stylesheet", href=`${baseUrl}style.css`)
     include ../footer/footer
+    include ../top-menu/top-menu
