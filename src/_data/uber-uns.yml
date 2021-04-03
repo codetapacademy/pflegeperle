@@ -24,17 +24,20 @@ team:
 content:
   -
     type: simple-paragraph
-    value: Betreuung Zuhause sollte gut organisiert sein. Denn im Bereich Pflege sollten Ihnen kompetente und seriöse Ansprechpartner zur Seite stehen, damit Sie wichtige Entscheidungen gut vorbereitet treffen können und mit dieser Aufgabe nicht allein nicht alleine gelassen werden.
+    value: Betreuung Zuhause sollte gut organisiert sein. Ein Schlaganfall, oder man kommt als Pflegefall aus der Rehabilitation zurück und plötzlich verändert sich alles.  
+
   -
     type: simple-paragraph
-    value: 'Pflegebedürftigkeit kann plötzlich passieren. Ein Schlaganfall, oder man kommt als Pflegefall aus der Rehabilitation zurück und plötzlich verändert sich alles. Auf einmal beschäftigen Sie sich mit diversen Fragen:'
+    value: Genau dann brauchen Angehörige von Pflegebedürftige kompetente und seriöse Ansprechpartner die zur Seite stehen, damit wichtige Entscheidungen gut vorbereitet getroffen werden. Denn Sie sollten jetzt nicht allein gelassen werden.
   - 
     type: list
     list:
-      - Brauche ich eine 24 h Betreuung oder pflege ich selbst an erster Stelle?
-      - Welche finanziellen Mittel gibt es und wie kann ich diese beantragen?
-      - Gibt es eine geeignete Ansprechperson für all meine Fragen?
-      - Wo kriege ich geeignete Pflegeprodukte her?
+      - asd 
+      - asd 
+      - asd 
+      - asd 
+      - asd 
+      - asd 
     imagePath: asset/image/young-woman-points-out-something-to-the-old-woman.jpg
     imageAlt: young woman points out something to the old woman
   - 

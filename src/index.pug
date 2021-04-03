@@ -5,17 +5,29 @@ block config
     var pageData = data.landing
 
 block awesome-content
-  - var heroType = 'taking-care'
+  - 
+    var heroType = 'taking-care'
+    var {
+      contactInfoBanner: infoBanner,
+      pageOrderedListWithImage: heroInfo,
+    } = data.landing
+
   include _component/hero/hero
+  include _component/info-banner/info-banner
+
   each story in data.landing.pageTwoSideStoryList
     .sprijin-competent
       .image-content
-        div(class=`image-content__background-${story['content__background-image']}`)
+        div(
+          class=`image-content__background`
+          style=`background-image: url(${baseUrl}${story['content__background-image']})`
+        )
         .image-content__text
-          h1.content__title= story.content__title
-          h2.content__subtitle= story.content__subtitle
+          h2.content__title= story.content__title
+          h3.content__subtitle= story.content__subtitle
           each paragraph in story.content_description
-            p.content__paragraph=paragraph
+            p.content__paragraph= paragraph
+          p.content__paragraph= story.client
           .content__divider
             .bb-contact
           .content__email @
@@ -30,12 +42,4 @@ block awesome-content
       p.link-hero__description Wir sind eine kleine aber feine Vermittlungsagentur die in Wien rund um Wien tätig ist
   - var heroType = 'people-getting-informed'
   include _component/hero/hero
-
-  - 
-    var {
-      contactInfoBanner: infoBanner,
-      pageOrderedListWithImage: heroInfo,
-    } = data.landing
-
-  include _component/info-banner/info-banner
   include _component/ordered-list/ordered-list
