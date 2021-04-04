@@ -11,10 +11,7 @@ content:
       value: Sowie der zu Pflegende als auch die Betreuungskraft, sollen gerecht behandelt werden.
     -
       type: simple-paragraph
-      value: Generell ist zu sagen, dass der Tagessatz der <b>Betreuungskraft ab 41€</b> beginnt.
-    -
-      type: simple-paragraph
-      value: Bei uns können Sie zwischen unserer <b>einmaligen Vermittlung</b> -zB bei Urlaubsvertretung und unseren <b>Rund-Um-Sorglos Paket</b> -zB bei dauerhaft gewünschter Betreuung, wählen.
+      value: Bei uns können Sie zwischen unserer <b>einmaligen Vermittlung</b> -zB bei Urlaubsvertretung und unserem <b>Rund-Um-Sorglos Paket</b> -zB bei dauerhaft gewünschter Betreuung, wählen.
   footerList:
     -
       type: simple-paragraph
@@ -54,7 +51,19 @@ pricingTable:
       - Gute Deutschkenntnisse
       - Mehrjährige Erfahrung in der Grundpflege & Hauswirtschaft
       - Hohe Qualifikation
-
+infoText: 
+  -
+    type: p
+    value: Ihre monatliche Eigenleistung beinhaltet
+  -
+    type: list
+    value:
+      - Agenturgebühren, 
+      - 2x Transporte, 
+      - 2x SVS Versicherunge der BetreuerInnen.
+  -
+    type: p
+    value: Bitte beachten Sie dass wir eine Vermittlungsgebühr von 450€ zu Vertragsbeginn verrechnen.
 infoTable:
   title: Kostenstruktur
   description: 'Preisbeispiel für eine monatliche Kostenstruktur im <i>Klassik Tarif</i> bei Pflegestufe 4:'
@@ -65,7 +74,7 @@ infoTable:
       special: 1
     -
       label: + Verwaltungsgebühr von PflegePerle monatlich (inkl. MwSt.)
-      value: 276
+      value: 250
       special: 0
     -
       label: –  Pflegegeld (Pflegestufe 4)
@@ -77,9 +86,9 @@ infoTable:
       special: 2
     -
       label: Ihre monatliche Eigenleistung
-      value: 921
+      value: 895
       special: 0
     -
       label: Ihre tägliche Eigenleistung
-      value: 32.89
+      value: 31.95
       special: 0

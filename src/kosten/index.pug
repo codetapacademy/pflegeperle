@@ -30,8 +30,17 @@ block awesome-content
       each item in infoTable.list 
         .info-table__label= item.label
         .info-table__value= new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(item.value)
+  .kosten__wrapper
+    each info in pageData.infoText
+      if info.type === 'p'
+        p= info.value
+      else if info.type === 'list'
+        ul
+          each li in info.value
+            li= li
 
   .kosten
+    .kosten__horizontal
     .kosten__wrapper
       h1.content__title= pageData.pageFooterTitle
       //- pre= JSON.stringify(pageData, null, 2)
