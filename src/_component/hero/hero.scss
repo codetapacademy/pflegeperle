@@ -13,6 +13,9 @@
   background-size: cover;
   text-align: center;
 
+  display: flex;
+  flex-direction: column;
+
   // & + .sprijin-competent {
   //   margin-top: -5rem;
   // }
@@ -20,8 +23,9 @@
   &__title,
   &__subtitle {
     margin: 1rem auto;
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: inline-block;
-    background-color: rgba($color: #fff, $alpha: 0.75)
+    background-color: rgba($color: #fff, $alpha: 0.75);
+    border-radius: 1rem;
   }
 }

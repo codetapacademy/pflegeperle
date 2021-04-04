@@ -1,7 +1,7 @@
-pageTitle: Über uns &#8211; PflegePerle &#8211; 24h Pflege!
-pageDescription: Update this text - Über uns &#8211; PflegePerle &#8211; 24h Pflege!
+pageTitle: Wir pflegen Ihr Vertrauen
+pageDescription: 24 Stunden Vermittlung mit Erfahrung und Empathie
 team:
-  title: UNSER TEAM
+  title: Unser Team
   people:
     -
       imagePath: /asset/image/team/alexandra.jpg
@@ -30,20 +30,6 @@ content:
     type: simple-paragraph
     value: Genau dann brauchen Angehörige von Pflegebedürftige kompetente und seriöse Ansprechpartner die zur Seite stehen, damit wichtige Entscheidungen gut vorbereitet getroffen werden. Denn Sie sollten jetzt nicht allein gelassen werden.
   - 
-    type: list
-    list:
-      - asd 
-      - asd 
-      - asd 
-      - asd 
-      - asd 
-      - asd 
-    imagePath: asset/image/young-woman-points-out-something-to-the-old-woman.jpg
-    imageAlt: young woman points out something to the old woman
-  - 
-    type: simple-paragraph
-    value: Zusätzlich müssen dann diese und andere Fragen sehr rasch in Erfahrung gebracht wereden.
-  - 
     type: simple-paragraph
     value: Die PflegePerle hat es sich zur Aufgabe gemacht, Menschen die vor solch einer Hürde im Leben gestellt werden, mit Rat und Tat zur Seite zu stehen. Wir wollen Angehörigen und zu Betreuende mit einem Rundumpflege Paket das Leben erleichtern, um eine langfristig erfolgreiche Betreuung zu ermöglichen. Die PflegePerle bietet erste Anlaufstelle, für Angehörige, die sich Informationen über den Ablauf einer 24 Stunden Betreuung holen wollen.
   -
@@ -51,13 +37,4 @@ content:
     value: Unsere Philosophie
   - 
     type: simple-paragraph
-    value: Der Mensch selbst hat uns schon jeher fasziniert. Denn jeder Mensch hat seine eigenen charakteristischen Eigenschaften und muss dementsprechend individuell betreut werden.
-  - 
-    type: simple-paragraph
-    value: In der 24 Stunden Pflegedienst Vermittlung, ist uns vor allem die Nachbetreuung ein wichtiger Aspekt. Denn eine lösungsorientierte Nachbetreuung ist nach unserer Erfahrung das A und O in diesem Bereich.
-  - 
-    type: simple-paragraph
-    value: Unsere Präsenz soll Ihnen die Sicherheit verschaffen die Sie brauchen.
-  - 
-    type: simple-paragraph
-    value: So bringen wir wertvolle Tipps wie ein harmonisches miteinander Leben, von Zu Betreuenden und PersonenbetreuerInnen, geschaffen werden kann.
+    value: Der Mensch selbst hat uns schon jeher fasziniert. Denn jeder Mensch hat seine eigenen charakteristischen Eigenschaften und muss dementsprechend individuell betreut werden. In der 24 Stunden Pflegedienst Vermittlung, ist uns vor allem die Nachbetreuung ein wichtiger Aspekt. Denn eine lösungsorientierte Nachbetreuung ist nach unserer Erfahrung das A und O in diesem Bereich. Unsere Präsenz soll Ihnen die Sicherheit verschaffen die Sie brauchen. So bringen wir wertvolle Tipps wie ein harmonisches miteinander Leben, von Zu Betreuenden und PersonenbetreuerInnen, geschaffen werden kann.

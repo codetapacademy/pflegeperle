@@ -5,7 +5,12 @@ block config
 
 block awesome-content
   .uber-uns
-  - const infoData = data['uber-uns'].content
+  -
+    const infoData = data['uber-uns'].content
+    var heroImage = `${baseUrl}asset/image/hero-slider/blue-helping-hand.jpg`
+
+
+  include ../_component/hero/hero
   .image-content__text
     each item in infoData 
       if item.type === 'simple-paragraph'
@@ -20,11 +25,9 @@ block awesome-content
           //- img(src=`${baseUrl}${item.imagePath}`, alt=item.imageAlt)
           .nu-stiu(style=`background-image: url(${baseUrl}${item.imagePath})`)
       else if item.type === 'sub-title'
-        h2= item.value
+        h2.team__title= item.value
 
   - var team = pageData.team 
   include ../_component/team/team
 
   - var heroType = 'people-getting-informed'
-  include ../_component/hero/hero
-

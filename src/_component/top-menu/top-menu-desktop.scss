@@ -1,10 +1,10 @@
 @media (min-width: 1024px) {
   .top-menu {
     flex-direction: row;
-    position: fixed;
     top: 0;
     margin: 0 auto;
     width: 100%;
+    bottom: initial;
     background-color: #fff;
 
     &__logo,
