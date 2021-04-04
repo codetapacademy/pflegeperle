@@ -1,7 +1,13 @@
 nav.top-menu
-  a.top-menu__logo(
-    href=baseUrl
-  )
-  //- pre=JSON.stringify(data, null, 2)
-  each menu in data['top-menu']
-    a.top-menu__link(href=`${baseUrl}${menu.link}`)= menu.label
+  input(type="checkbox" id="top-menu__toggle")
+  .top-menu__wrapper
+    a.top-menu__logo(
+      href=baseUrl
+    )
+    //- pre=JSON.stringify(data, null, 2)
+    each menu in data['top-menu']
+      a.top-menu__link(href=`${baseUrl}${menu.link}`)= menu.label
+
+  label(for="top-menu__toggle")
+    span.open Menü Öffnen
+    span.close Menü Schließen

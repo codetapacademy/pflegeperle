@@ -8,16 +8,28 @@
     background-color: #fff;
 
     &__logo,
+    &__link:visited,
+    &__link:active,
     &__link {
       height: 80px;
+      background-color: transparent;
+      color: black;
     }
 
     &__logo {
       width: 220px;
-    }  
+    }
+
+    &__wrapper {
+      display: flex;
+    }
   }
 
   .content {
     padding-top: 80px;
+  }
+
+  label[for="top-menu__toggle"] {
+    display: none;
   }
 }

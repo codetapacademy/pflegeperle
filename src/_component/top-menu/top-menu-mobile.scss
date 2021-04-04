@@ -1,40 +1,111 @@
+label[for="top-menu__toggle"] {
+  padding: 0.5rem 1rem;
+  min-width: 100px;
+  min-height: 30px;
+  position: relative;
+
+  & .close,
+  & .open {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .close {
+    opacity: 0;
+    top: 100%;
+    transition: 250ms;
+  }
+
+  & .open {
+    opacity: 1;
+    top: 0;
+    transition: 250ms;
+  }
+}
+
+#top-menu__toggle {
+  display: none;
+
+  &:checked {
+
+    & ~ label[for="top-menu__toggle"] {
+      & .close {
+        opacity: 1;
+        top: 0;
+      }
+
+      & .open {
+        opacity: 0;
+        top: 100%;
+      }
+    }
+
+    & + .top-menu__wrapper {
+      .top-menu__logo {
+        height: 80px;
+      }
+
+      & .top-menu__link {
+        height: 40px;
+      }
+    }
+  }
+}
+
+@for $n from 1 to 10 {
+  .top-menu__link:nth-child(#{$n}) {
+    transition-delay: $n * 25ms;
+  }
+}
+
 .top-menu {
   flex-direction: column;
   display: flex;
   justify-content: center;
   box-shadow: 2px 0 2px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
 
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 1rem;
+  right: 1rem;
   background-color: white;
+  border: 2px solid lightblue;
 
-  &__logo {
-    height: 80px;
-  }
-
+  &__link:active,
+  &__link:visited,
   &__link {
-    height: 40px;
-  }
-
-  &__link {
-    color: $top-menu;
+    height: 0;
+    transition: 250ms;
+    background-color: #5551ff;
+    padding: 0 2.5rem;
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    overflow: hidden;
+
     &:hover {
       color: $top-menu-hover;
     }
   }
 
   &__logo {
+    height: 0;
+    transition: 250ms;
+    overflow: hidden;
+    display: block;
     width: 100%;
-    background-image: url('#{$baseUrl}asset/image/cropped-pflegePerle-logo-web.png');
-    background-size: contain;
+    background-image: url("#{$baseUrl}asset/image/cropped-pflegePerle-logo-web.png");
+    // background-size: contain;
+    background-size: 75%;
     background-position: center center;
     background-repeat: no-repeat;
   }
