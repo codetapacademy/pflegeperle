@@ -1,24 +1,68 @@
-pageTitle: Was wir tun
-pageDescription: Change me to Was wir tun description
+pageTitle: Wie wir Ihnen helfen dürfen
+pageDescription: Eine Rund um Versorgung ist das A und O. Wir pflegen Ihr Vertrauen.
 pageTwoSideStoryList:
   - 
     content__title: Eine Agentur soll Ihnen die Sicherheit verschaffen die Sie brauchen
-    content__background-image: old-man
+    content__background-image: asset/image/was-wir-tun/carer-pusing-chair.jpg
     content_description:
       - Neben der Vermittlung geeigneter Betreuungskräfte, will PflegePerle Klarheit verschaffen und Ihnen Schritt für Schritt eine Anleitung geben, wie Sie die Betreuung Zuhause am besten organisieren können.
       - Neben der Vermittlung geeigneter Betreuungskräfte, will PflegePerle Klarheit verschaffen und Ihnen Schritt für Schritt eine Anleitung geben, wie Sie die Betreuung Zuhause am besten organisieren können.
 imageListWithDescription:
   people:
     -
-      imagePath: /asset/image/team/carmen.jpg
+      imagePath: /asset/image/was-wir-tun/vermittlung.jpg
       name: Vermittlung von selbstständigen 24 Stunden BetreuerInnen
       role: Wir sind ein kompetenter Partner wenn sie auf der Suche nach einer geeigneten Betreuungskraft sind. 
     -
-      imagePath: /asset/image/team/carmen.jpg
+      imagePath: /asset/image/was-wir-tun/wir-verstehen.jpg
       name: Wir verstehen uns als einen erfahrenen regionalen Partner
       role: Wir sind eine kleine aber feine Vermittlungsagentur die in Wien rund um Wien tätig ist 
 
     -
-      imagePath: /asset/image/team/carmen.jpg
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-0.jpg
       name: Wir erledigen alle notwendigen Formalitäten
       role: Die PflegePerle erledigt alle notwendigen Formalitäten die mit der Organisation der Pflegekräfte zusammenhängt … 
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-1.jpg
+      name: Wir planen die Art und den Umfang der notwendigen 24 Stunden Betreuung.
+      role: Bevor es zu einer Vermittlung kommt, brauchen Sie eine gute Beratung was eine 24h Hilfe machen darf. Alle Fragen werden im Vorhinein geklärt und besprochen. Dafür nehmen wir uns Zeit. Gemeinsam mit Ihnen erstellen wir Ihren persönlichen Pflegeplan zusammen und besprechen in Ruhe alle aufkommenden Fragen. 
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-7.jpg
+      name: Suche nach der geeigneten 24h Betreuung
+      role: Anhand eines ausgewerteten Fragebogen den wir mit Ihnen vorab ausgearbeitet haben, suchen wir nun die geeignete Betreuungskraft. Wenn es schnell gehen muss können wir schon binnen 4 Tagen jemanden für Sie organisieren.
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-3.jpg
+      name: Wir erledigen für Sie organisatorische und vertragliche Belange.
+      role: Alle Formalitäten die im Zusammenhang mit der 24h Betreuung stehen, werden von uns erledigt. Auch werden alle COVID Maßnahmen für die Sicherheit Iherer Angehörigen getroffen und schon im Ausland von uns erledigt. Wir sind immer auf dem aktuellsten Stand. Auch unterstützen wir unsere Kunden, bei der Beantragung von Pflegegelder und Zuschüssen.
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-4.jpg
+      name: Langjährige Erfahrung
+      role: Durch unsere langjährige Erfahrung wissen wir auf was es bei der 24h Betreuung ankommt. Jeder Fall ist individuell zu betrachten und dementsprechend zu behandeln.
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-5.jpg
+      name: Diplomierte Krankenschwester
+      role: Bei Bedarf organsieren wir Betreuungsvisiten durch diplomierte Krankenschwestern. Ebenfalls können wir dafür ein Betreuungsprtokoll erstellen.
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-6.jpg
+      name: 24h Service für unsere Kunden
+      role: Unsere Hotline für Notfälle ist rund um die Uhr erreichbar und für unsere Kunden kostenlos. Auch an Sonn- und Feiertagen.
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-2.jpg
+      name: Transport der BetreuerInnen.
+      role: Wir organsieren die An- und Abreise des Betreuungspersonals. Unsere BetreuerInnen dürfen aber auch mit Ihren eigenen Transport abreisen. Wichtig für uns ist, eine durchgehende Betreuung zu gewährleisten. Dafür sind wir da.
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-8.jpg
+      name: Wir sind Ihr Rückhalt. Sie haben die Wahl.
+      role: Sie haben keine bösen Überraschungen, dass eine Betreuerin unangekündigt gehen will und Sie alleine da stehen. Die Krontolle behalten Sie als Familie. Wir verfügen über ein breites Netzwerk an 24h Betreuerinnen.
+
+    -
+      imagePath: /asset/image/was-wir-tun/was-wir-tun-list-9.jpg
+      name: Wir garantieren eine verlässliche Nachbetreuung
+      role: Nach der Vermittlung sind wir ebenfalls für Sie da und stehen mit Rat und Tat an Ihrer Seite. Wir verstehen uns als ein Bindeglied zwischen Familie, Angehörige und 24 Stunden Betreuerin. Übersetzungen erledigen wir jederzeit und schaffen eine gute Verbindung.

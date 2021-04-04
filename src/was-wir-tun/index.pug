@@ -10,22 +10,36 @@ block config
 
 
 block awesome-content
+  -
+    var heroImage = `${baseUrl}asset/image/hero-slider/was-wir-tun.jpg`
+
+
+  include ../_component/hero/hero
   //- pre= JSON.stringify(pageData.pageTwoSideStoryList, null, 2)
   each story in pageData.pageTwoSideStoryList
     .sprijin-competent
       .image-content
-        div(class=`image-content__background-${story['content__background-image']}`)
+        div(
+          class=`image-content__background`
+          style=`background-image: url(${baseUrl}${story['content__background-image']})`
+        )
         .image-content__text
           h1.content__title= story.content__title
 
           each paragraph in story.content_description
             p.content__paragraph=paragraph
           .content__divider
-            .bb-contact
-          .content__email @
+            .bb-call
+          .content__phone +43 /(0) 670 70 19 0 50
 
   -
-    var team = pageData.imageListWithDescription
+    var { people } = pageData.imageListWithDescription
 
   .was-wir-tun
-    include ../_component/team/team
+    each waswirtun in people
+      .was-wir-tun__wrapper 
+        .was-wir-tun__image(style=`background-image: url(${waswirtun.imagePath})`)
+        h1.was-wir-tun__title= waswirtun.name
+        p.was-wir-tun__description= waswirtun.role
+
+    //- include ../_component/team/team

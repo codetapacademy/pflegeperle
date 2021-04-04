@@ -9,6 +9,7 @@ block awesome-content
     p.content__paragraph= pageData.pageDescription
     each intro in pageData.introList
       .article-wrapper 
-        h1.article-title= intro.title
-        p.article-description= intro.description
         .article-image(style=`background-image: url(${intro.imagePath})`)
+        h1.article-title= intro.title
+        each text in intro.description
+          p.article-description!= text

@@ -1,0 +1,32 @@
+.was-wir-tun {
+  display: grid;
+  max-width: 1280px;
+  margin: 1rem;
+  grid-gap: 1rem;
+
+  &__title {
+    font-size: 22px;
+  }
+
+  &__image {
+    padding-top: 50%;
+    background-size: 100%;
+    background-position: center center;
+    transition: 250ms;
+    cursor: pointer;
+
+    &:hover {
+      background-size: 110%;
+      transform: rotateZ(-2deg)
+    }
+  }
+}
+
+.bb-call {
+  font-size: 2.5rem;
+}
+
+.content__phone {
+  text-align: center;
+  font-size: 1.7rem;
+}
