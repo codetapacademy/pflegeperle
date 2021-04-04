@@ -11,13 +11,14 @@ div(
   id=hashId
 )
 
-div(
-  class="calendly-inline-widget"
-  data-url="https://calendly.com/pflegeperle/jetzt-kostenloses-erstgesrpach-vereinbaren" style="min-width:320px;height:630px;"
-)
+if hashId === 'calendly'
+  div(
+    class="calendly-inline-widget"
+    data-url="https://calendly.com/pflegeperle/jetzt-kostenloses-erstgesrpach-vereinbaren" style="min-width:320px;height:630px;"
+  )
 
-script(
-  type="text/javascript"
-  src="https://assets.calendly.com/assets/external/widget.js"
-  async
-)
+  script(
+    type="text/javascript"
+    src="https://assets.calendly.com/assets/external/widget.js"
+    async
+  )
