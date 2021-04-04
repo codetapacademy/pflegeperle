@@ -8,9 +8,12 @@
 
 .hero {
   // padding-top: 46.57608695652174%;
-  padding: 20rem 2.5rem 10rem;
-  background-position: center center;
-  background-size: cover;
+  padding: 10rem 1rem 10rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+
+
   text-align: center;
 
   display: flex;
@@ -27,5 +30,13 @@
     display: inline-block;
     background-color: rgba($color: #fff, $alpha: 0.75);
     border-radius: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 20rem 2.5rem 10rem;
+    background-position: center center;
+    background-size: cover;
   }
 }

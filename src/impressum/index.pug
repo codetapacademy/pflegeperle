@@ -7,11 +7,20 @@ block awesome-content
   .content--padd
     h1.content__title= pageData.pageTitle
     p.content__paragraph= pageData.pageDescription
-    each intro in pageData.introList
-      .article-wrapper 
-        h1.article-title= intro.title
-        p.article-description= intro.description
-        .article-image(style=`background-image: url(${intro.imagePath})`)
+    //- each intro in pageData.introList
+    //-   .article-wrapper 
+    //-     h1.article-title= intro.title
+    //-     p.article-description= intro.description
+    //-     .article-image(style=`background-image: url(${intro.imagePath})`)
+    -
+      var heroInfo = {}
+      //- heroInfo.title = pageData.pageTitle
+      heroInfo.list = pageData.introList.map(x => ({
+        title: x.title,
+        infoList: [x.description],
+      })),
+      heroInfo.imagePath = pageData.imagePath
+    include ../_component/ordered-list/ordered-list
 
     each content in pageData.nisteAltele
       if content.type === 'h2'
