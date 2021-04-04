@@ -26,7 +26,7 @@ pageTwoSideStoryList:
 
 pageOrderedListWithImage:
   title: Was uns auszeichnet
-  imagePath: /asset/image/2-side/este-perfect.jpg
+  imagePath: /asset/image/hero-slider/este-perfect.jpg
   list:
     -
       title: regional in Wien & Wien Umgebung
