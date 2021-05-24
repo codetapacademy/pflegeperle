@@ -16,7 +16,7 @@ block awesome-content
     each data in pageData.pricingTable
       .pricing-table__content
         h2.pricing-table__title= data.title
-        h3.pricing-table__sub-title= data.price
+        h3.pricing-table__sub-title ab #{data.price}
         ul.pricing-table__list-wrapper
           each feature in data.featureList
             .pricing-table__list-item= feature
